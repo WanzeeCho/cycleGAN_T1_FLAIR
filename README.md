@@ -1,6 +1,6 @@
 # CycleGAN : T1 &leftrightarrow; FLAIR (unpaired data)
 
-**Note** : This is a project related to the advanced big data assignment of Professor Gam Tae-eui's class in the spring semester of 2023.
+**Note** : This is a project related to the advanced big data assignment of Professor Kam Tae-eui's class in the spring semester of 2023.
 
 ### The purpose of this project is to **convert T1 images to FLAIR images or vice versa through image translation**.
             
