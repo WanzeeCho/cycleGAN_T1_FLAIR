@@ -7,9 +7,8 @@
 The code here is based on pytorch and has no changes from the original CycleGAN.
 * https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
 
-The image has been compressed and uploaded 
-* Train dataset : mrDataset_train.zip
-* test dataset : mrDataset_test.zip
+You can download datasets:  
+* https://drive.google.com/file/d/1GaVndTbiez-zhuvkuSvRxtFXgz1DGo6f/view?usp=sharing
 
 T1 and FLAIR data are unpaired.
 
