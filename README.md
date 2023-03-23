@@ -7,7 +7,7 @@
 The code here is based on pytorch and has no changes from the original CycleGAN.
 * https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
 
-The used T1 and FLAIR data are located under the dataset folder, so you can download them from that path if necessary.  
+The image has been compressed and uploaded under the name of 'dataset', and you can download this file.  
 T1 and FLAIR data are unpaired.
 
 If you have any questions, please email me.  
