@@ -11,9 +11,9 @@ index = 1
 
 df = pd.DataFrame(columns=['fake_path', 'real_path', 'Subject Name', 'SSIM', 'PSNR'])
 print(df)
-fake_files_path = 'C:/Users/Wanzee Meredith Cho/PycharmProjects/cyclegan/results/T1_FLAIR/test_200/images/make_FLAIR/'
+fake_files_path = '../cyclegan/results/T1_FLAIR/test_200/images/make_FLAIR/'
 fake_files = glob(fake_files_path + '*_fake.png')
-real_files_path = 'C:/Users/Wanzee Meredith Cho/OneDrive - 고려대학교/20. 수업/06. 23년 1학기/빅데이터분석조교/wmh_240/val/FLAIR'
+real_files_path = 'real/files/path'
 real_files = glob(fake_files_path + '*_real.png')
 
 for i in range(len(fake_files)-1):
