@@ -1,18 +1,14 @@
-from skimage.io import imread, imshow, show
+from skimage.io import imread
 from skimage.metrics import structural_similarity as ssim
 from skimage.metrics import peak_signal_noise_ratio as psnr
 import numpy as np
-import pandas as pd
 
 Psnr = []
 Ssim = []
 index = 1
 
-df = pd.DataFrame(columns=['fake_path', 'real_path', 'Subject Name', 'SSIM', 'PSNR'])
-print(df)
 fake_files_path = 'fake/flair/file/path'
 real_files_path = 'real/files/path'
-
 
 for i in range(len(fake_files)-1):
     # 예측
@@ -34,8 +30,6 @@ for i in range(len(fake_files)-1):
             "SSIM: %.4f" % round(np.mean(Ssim), 4)
         )
     index += 1
-
-df.to_csv('test.csv')
 
 print("FINAL",
     "PSNR: %.4f" % round(np.mean(Psnr), 4),
