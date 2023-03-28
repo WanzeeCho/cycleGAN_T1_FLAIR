@@ -33,7 +33,7 @@ for i in range(len(fake_files)-1):
     Psnr.append(psnr(im1, im2))
     print('PSNR : ' + str(psnr(im1, im2)))
 
-    if np.mod(index, 100) == 0:
+    if np.mod(index, 50) == 0:
         print(
             str(index) + ' images processed',
             "PSNR: %.4f" % round(np.mean(Psnr), 4),
