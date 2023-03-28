@@ -2,15 +2,18 @@ from skimage.io import imread
 from skimage.metrics import structural_similarity as ssim
 from skimage.metrics import peak_signal_noise_ratio as psnr
 import numpy as np
+from glob import glob
 
 Psnr = []
 Ssim = []
 index = 1
 
 fake_files_path = 'fake/flair/file/path'
+fake_files = glob(fake_files_path + '*.png')
 real_files_path = 'real/files/path'
 
 for i in range(len(fake_files)-1):
+    print(subject_name)
     # 예측
     print(fake_files[i])
     im2 = imread(fake_files[i], as_gray=True)
